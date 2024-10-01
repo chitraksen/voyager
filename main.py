@@ -1,5 +1,4 @@
-import voyager
-import voyager.cli_app
+from voyager import cli_app
 
 if __name__ == "__main__":
-    voyager.cli_apps
+    cli_app.main()
