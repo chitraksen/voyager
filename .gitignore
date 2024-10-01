@@ -1,0 +1,8 @@
+.DS_Store
+.voyager
+deps.txt
+plan.md
+test.ipynb
+stored_files.py
+voyager/__pycache__
+config.json
