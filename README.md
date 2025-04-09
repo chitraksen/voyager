@@ -2,7 +2,8 @@
 
 A CLI application that allows users to search for locations on Wikivoyage and initiate a conversation about the chosen location.
 
-Run the application from main.py
+Only prerequisite is uv. If using a different package manager, make use of pyproject.toml to build the environment. Run the application from main directory using:
 ```bash
-python main.py
+uv sync
+uv run main.py
 ```
