@@ -129,7 +129,7 @@ def pageChat(content: str):
     api_key = apiKey()
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel(
-        "gemini-1.5-flash-001",
+        "gemini-2.0-flash",
         system_instruction=(
             "You are an expert travel guide. Your job is to answer the user's"
             "query based on the document you have access to. Try giving them"
