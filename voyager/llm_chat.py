@@ -93,11 +93,11 @@ def chatLoop(chat, document=None):
     Returns:
         None
     """
-    print("Chat initialized. Type 'quit' to exit.")
+    print("Chat initialized. Type 'exit' to exit.")
     while True:
         console.print("\nUser: ", style="bold cyan", end="")
         user_input = input()
-        if user_input.lower() == "quit":
+        if user_input.lower() == "exit":
             console.print("\nExiting application. Goodbye!", style="bold red")
             break
 
